@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fixed-top {
+    background-color: #f0fff07f;
+    height: 100px;
+    transition: box-shadow 0.3s ease;
+    box-shadow: none;
+}
+
+.navbar.fixed-top.scrolled {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn-bg {
+    background-color: #21B573;
+    border-radius: 33px;
+    color: #fff;
+}
+
+.hero-bg {
+    background-color: #F0FFF0;
+}
+
+.navbar-brand img {
+    width: 200px;
+    height: 60px;
+}
+
+.nav-btn {
+    padding: 12px 28px;
+}
+
+.nav-item {
+    margin: auto 10px;
+}
+
+.get-btn {
+    width: fit-content;
+    padding: 12px 36px;
+}
+
+.hero-banner {
+    padding-top: 100px;
+}
+
+.banner-left small {
+    color: #FD511A;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.banner-left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    line-height: 70px;
+}
+
+.banner-left h1 span {
+    color: #21B573;
+}
+
+.banner-left p {
+    line-height: 36px;
+}
+
+.icon-box {
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    background-color: #F8FFFB;
+    margin: 20px auto;
+}
+
+.icon-box:hover {
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    background-color: #fff;
+}
+
+
+.icon {
+    width: 66px;
+    height: 85px;
+    flex-shrink: 0;
+    margin-bottom: 15px;
+}
+
+.icon-box h4 {
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.icon-box p {
+    color: #585859;
+}
+
+.card {
+    border-radius: 18px;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.card-img {
+    padding: 15px;
+}
+
+.card-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.card-btn {
+    padding: 8px 28px;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    width: 80%;
+    margin: 70px auto;
+}
+
+.text-bold {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    line-height: 70px;
+}
+
+.testimonial img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.footer {
+    background: #282531;
+}
+.footer h4 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer p {
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
